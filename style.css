@@ -728,13 +728,12 @@ body.dark-mode footer {
     color: #fff;
 }
 
-body.dark-mode .container,
 body.dark-mode .hero-about,
 body.dark-mode .contact-info,
 body.dark-mode .contact-form,
 body.dark-mode .opening-hours-section,
 body.dark-mode .service {
-    background: #212b37 !important;
+    background: #212b37;
     color: #e0e3e9;
 }
 
