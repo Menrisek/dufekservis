@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="DUFEK SERVIS s.r.o. - Autoservis Bučovice"/>
+    <meta name="keywords" content="autoservis, servis bučovice, autoservis bučovice, autoservis bucovice, bučovice, Bučovice, autoservis Bučovice, dufek servis, Dufek, servis, dufek servis">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="DUFEK SERVIS s.r.o. – Poskytujeme kompletní autoservis pro vozy všech značek v Bučovicích. Profesionální příprava na STK, diagnostika a opravy motorů, servis klimatizací, výměna olejů a kapalin, servis brzd a příprava na prodej. Spolehlivost, odbornost, individuální péče." />
+    <meta name="author" content="Dufek servis s.r.o.">
+    <meta name="language" content="cs">
+
+    <meta property="og:title" content="DUFEK SERVIS s.r.o. - Autoservis Bučovice">
+    <meta property="og:description" content="DUFEK SERVIS s.r.o. – Poskytujeme kompletní autoservis pro vozy všech značek v Bučovicích. Profesionální příprava na STK, diagnostika a opravy motorů, servis klimatizací, výměna olejů a kapalin, servis brzd a příprava na prodej.">
+    <meta property="og:image" content="https://www.dufekservis.cz/pictures/favicon.ico">
+    <meta property="og:url" content="https://www.dufekservis.cz">
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/favicon.ico"/>
+    <link rel="apple-touch-icon" href="https://www.dufekservis.cz/pictures/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>DUFEK SERVIS s.r.o. - Autoservis Bučovice</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#" class="header-logo-link" id="logo-link" aria-label="Přejít na začátek stránky" tabindex="-1">
+                <h1>DUFEK SERVIS</h1>
+            </a>
+            <span class="header-phone">
+                <i class="fas fa-phone"></i> +420 734 440 066
+            </span>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()" aria-label="Zobrazit menu" aria-expanded="false" tabindex="0">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="nav">
+            <a href="#about">O nás</a>
+            <a href="#services">Služby</a>
+            <a href="#opening-hours">Otevírací doba</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-images">
+            <div class="hero-image-slide" style="background-image: url('pictures/predni_mercedes.jpeg');"
+                loading="lazy"></div>
+            <div class="hero-image-slide" style="background-image: url('pictures/predni_skoda.jpeg');" loading="lazy">
+            </div>
+            <div class="hero-image-slide" style="background-image: url('pictures/predni_mercedes_cervena.jpeg');"
+                loading="lazy"></div>
+        </div>
+        <div class="hero-text-overlay" data-aos="fade-up" data-aos-duration="1200">
+            <div class="hero-text-center">
+                Váš autoservis pro všechny značky v Bučovicích
+                <div class="hero-tagline">Spolehlivost, odbornost a individuální přístup</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <div class="hero-about" data-aos="fade-up">
+                <div class="hero-image" style="background-image: url('pictures/autoservis_zvenku.jpg');" loading="lazy"
+                    data-aos="fade-right" data-aos-delay="100">
+                </div>
+                <div class="hero-text" data-aos="fade-left" data-aos-delay="200">
+                    <h2>O nás</h2>
+                    <p>
+                        Poskytujeme kompletní autoservis pro vozy všech značek. Zajišťujeme profesionální přípravu
+                        vozidla na STK, diagnostiku a opravy motorů, servis a plnění klimatizací, výměnu olejů a dalších
+                        provozních kapalin, opravy a výměny brzdových systémů i přípravu vozidel na prodej.
+                    </p>
+                    <ul>
+                        <li>Profesionální příprava na STK</li>
+                        <li>Diagnostika a opravy motorů</li>
+                        <li>Servis a plnění klimatizací</li>
+                        <li>Výměna olejů a provozních kapalin</li>
+                        <li>Opravy a výměny brzdových systémů</li>
+                        <li>Příprava vozidel na prodej</li>
+                        <li>Spolehlivost, odborný přístup a individuální péče</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" style="margin-top: 50px;">
+            <h2 data-aos="fade-up">Služby</h2>
+            <div class="services">
+                <div class="services-row">
+                    <div class="service" data-aos="zoom-in" data-aos-delay="0">
+                        <img src="pictures/diagnostika_a_opravy_motoru.jpg" alt="Diagnostika a opravy motorů"
+                            loading="lazy" />
+                        <h3>Diagnostika a opravy motorů</h3>
+                        <p>Moderní diagnostika, opravy a údržba motorů všech značek. Zkušení mechanici a nejnovější
+                            technologie pro spolehlivý chod vašeho vozu.</p>
+                    </div>
+                    <div class="service" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="pictures/servis_a_plneni_kimatizaci.jpg" alt="Servis a plnění klimatizací"
+                            loading="lazy" />
+                        <h3>Servis a plnění klimatizací</h3>
+                        <p>Profesionální servis, čištění a plnění klimatizací pro příjemné klima ve vašem autě v létě i
+                            zimě.</p>
+                    </div>
+                    <div class="service" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="pictures/priprava_vozidel_na_stk.jpg" alt="Příprava vozidla na STK" loading="lazy" />
+                        <h3>Příprava vozidla na STK</h3>
+                        <p>Kompletní příprava a kontrola vozu před technickou prohlídkou. Odhalíme a odstraníme závady,
+                            abyste STK prošli bez starostí.</p>
+                    </div>
+                </div>
+                <div class="services-row">
+                    <div class="service" data-aos="zoom-in" data-aos-delay="0">
+                        <img src="pictures/vymena_oleju_a_kapalin.jpg" alt="Výměna olejů a provozních kapalin" loading="lazy" />
+                        <h3>Výměna olejů a kapalin</h3>
+                        <p>Rychlá a kvalitní výměna motorového oleje, převodových olejů i ostatních provozních kapalin
+                            pro dlouhou životnost vašeho vozu.</p>
+                    </div>
+                    <div class="service" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="pictures/opravy_a_vymeny_brzd.jpg" alt="Opravy a výměny brzdových systémů"
+                            loading="lazy" />
+                        <h3>Opravy a výměny brzd</h3>
+                        <p>Opravy, výměny a servis brzdových systémů všech typů. Bezpečnost na prvním místě.</p>
+                    </div>
+                    <div class="service" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="pictures/priprava_vozidel_na_prodej.jpg" alt="Příprava vozidla na prodej" loading="lazy" />
+                        <h3>Příprava vozidla na prodej</h3>
+                        <p>Důkladná prohlídka, vyčištění a servis vozu před prodejem pro zvýšení jeho hodnoty a
+                            rychlejší prodej.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separator" data-aos="fade-up" data-aos-delay="100" />
+
+        <section id="opening-hours" class="opening-hours-section" data-aos="fade-up">
+            <h2>Otevírací doba</h2>
+            <ul class="opening-hours-list" id="opening-hours-list">
+                <li><span class="opening-hours-day">Pondělí</span><span class="opening-hours-time">8:00–17:00</span>
+                </li>
+                <li><span class="opening-hours-day">Úterý</span><span class="opening-hours-time">8:00–17:00</span></li>
+                <li><span class="opening-hours-day">Středa</span><span class="opening-hours-time">8:00–17:00</span></li>
+                <li><span class="opening-hours-day">Čtvrtek</span><span class="opening-hours-time">8:00–17:00</span>
+                </li>
+                <li><span class="opening-hours-day">Pátek</span><span class="opening-hours-time">8:00–17:00</span></li>
+                <li><span class="opening-hours-day">Sobota</span><span class="opening-hours-time">zavřeno</span></li>
+                <li><span class="opening-hours-day">Neděle</span><span class="opening-hours-time">zavřeno</span></li>
+            </ul>
+        </section>
+
+        <hr class="separator" data-aos="fade-up" data-aos-delay="100" />
+
+        <section id="contact" style="margin-top: 50px;">
+            <h2 data-aos="fade-up">Kontakt</h2>
+            <div class="contact-section">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-info-content">
+                        <p><strong>Adresa:</strong> Součkova 481, 685 01 Bučovice</p>
+                        <p><strong>Telefon:</strong> <span style="color:#1e90ff;text-decoration:none;">+420 734 440
+                                066</span></p>
+                        <p><strong>Email:</strong> <a href="mailto:dufekservis@email.cz"
+                                style="color:#1e90ff;text-decoration:none;">dufekservis@email.cz</a></p>
+                        <p><strong>IČO:</strong> 10938702</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/dufekservis" target="_blank" aria-label="Facebook"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/dufekservis_s.r.o/" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" autocomplete="off" data-aos="fade-left"
+                    data-aos-delay="200">
+                    <h3>Napište nám</h3>
+                    <div class="form-message" id="formMessage"></div>
+                    <label for="name">Jméno *</label>
+                    <input type="text" id="name" name="name" required maxlength="50" placeholder="Vaše jméno" />
+
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required maxlength="70" placeholder="Váš email" />
+
+                    <label for="message">Zpráva *</label>
+                    <textarea id="message" name="message" required maxlength="600"
+                        placeholder="Funkce (Napište nám) je prozatím nefunkční. Při kontaktu nám prosím zavolejte"></textarea>
+
+                    <button type="submit"disabled>Odeslat</button> <!-- Tlačítko zablokováno -->
+                </form>
+            </div>
+
+            <h2 style="margin-top: 60px;" data-aos="fade-up">Kde nás najdete</h2>
+            <div id="map" data-aos="fade-up" data-aos-delay="100"></div>
+        </section>
+    </div>
+
+    <!-- Plovoucí tlačítko pro e-mail -->
+    <a href="mailto:dufekservis@email.cz" class="floating-email-btn" aria-label="Napište e-mail DUFEK SERVIS"
+        data-aos="fade-left" data-aos-delay="200">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <!-- Plovoucí tlačítko pro Dark Mode -->
+    <button class="floating-darkmode-btn" id="darkmode-btn" aria-label="Přepnout tmavý režim" type="button"
+        data-aos="fade-right" data-aos-delay="200">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <footer>
+        &copy; <span id="year"></span> DUFEK SERVIS s.r.o. | Všechna práva vyhrazena
+        <div style="margin-top:7px;font-size:15px;">
+            Web created by <a href="https://www.instagram.com/menrisek/"
+                style="color:#ffd100;text-decoration:underline;">Šimon Přikryl</a>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // animace jen při prvním vstupu do viewportu
+            duration: 900,
+            offset: 80
+        });
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('show');
+        }
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function () {
+                document.getElementById('nav').classList.remove('show');
+            });
+        });
+        document.getElementById('logo-link').addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        document.getElementById('map').innerHTML = `<iframe loading="lazy"
+                src="https://www.google.com/maps?q=49.1515858,17.0059003&z=17&output=embed"
+                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" title="Mapa autoservisu"></iframe>`;
+
+        // Zvýraznění aktuálního dne v otevírací době
+        (function () {
+            const dnes = new Date().getDay(); // 0 = Neděle, 1 = Pondělí, ...
+            const seznam = document.getElementById('opening-hours-list').children;
+            // mapping: v seznamu je Pondělí první položka (index 0), v JS 1
+            let index = dnes - 1;
+            if (index < 0) index = 6;
+            for (let i = 0; i < seznam.length; i++) {
+                seznam[i].classList.remove('active');
+            }
+            if (seznam[index]) {
+                seznam[index].classList.add('active');
+            }
+        })();
+
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = "Děkujeme za zprávu! Ozveme se vám co nejdříve.";
+            formMessage.style.color = "#4a90e2";
+            this.reset();
+        });
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Dark mode toggle
+        const darkBtn = document.getElementById('darkmode-btn');
+        const darkModeKey = 'dufek_darkmode';
+        function setDarkMode(on) {
+            if (on) {
+                document.body.classList.add('dark-mode');
+                darkBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                document.body.classList.remove('dark-mode');
+                darkBtn.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+            localStorage.setItem(darkModeKey, on ? '1' : '0');
+        }
+        darkBtn.addEventListener('click', function () {
+            setDarkMode(!document.body.classList.contains('dark-mode'));
+        });
+        // Init on load
+        (function () {
+            const saved = localStorage.getItem(darkModeKey);
+            if (saved === '1' || (saved === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                setDarkMode(true);
+            }
+        })();
+    </script>
+
+    <script>
+        const sections = document.querySelectorAll("section[id]");
+        window.addEventListener("scroll", () => {
+            const scrollY = window.pageYOffset;
+            sections.forEach((current) => {
+                const sectionTop = current.offsetTop - 80;
+                const sectionHeight = current.offsetHeight;
+                const sectionId = current.getAttribute("id");
+                const navLink = document.querySelector(`nav a[href*="${sectionId}"]`);
+                if (navLink) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        navLink.classList.add("active");
+                    } else {
+                        navLink.classList.remove("active");
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
